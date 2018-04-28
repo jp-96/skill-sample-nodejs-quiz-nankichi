@@ -1,0 +1,53 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "南吉の青春時代",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "JP_ANSWER"
+                        }
+                    ],
+                    "samples": [
+                        "新見 {answer}",
+                        "{answer}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "JP_ANSWER",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "南吉",
+                                "synonyms": [
+                                    "新見南吉"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
