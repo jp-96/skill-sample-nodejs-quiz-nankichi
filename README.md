@@ -1,7 +1,7 @@
 # skill-sample-nodejs-simplequiz
 全問正解クイズのサンプル(Amazon Alexa Skill)
 
-<img src="https://github.com/jp-96/skill-sample-nodejs-quiz-simplequiz/blob/master/%E5%8D%97%E5%90%89s.png?raw=true"/>
+<img src="https://raw.githubusercontent.com/jp-96/skill-sample-nodejs-simplequiz/master/%E5%8D%97%E5%90%89s.png?raw=true"/>
 
 次の２つのサービスにアカウント登録すれば、コンソール上で、サンプルを試すことができます（無料）。
 * [Alexa Skills Kit開発者コンソール](https://developer.amazon.com/ja/) ⇒ [JSONエディタのソースコード](./models/ja-JP.json)
